@@ -37,7 +37,9 @@ The app can be deployed to Heroku, there is Procfile already prepared. Follow in
 
 ## Run locally
 
-In the CLI run the following command to connect to MongoDB
+First create a database in [MongoDB Atlas](https://www.mongodb.com/atlas) after following the instructions on the website.
+
+After that in the CLI run the following command to connect to MongoDB, but change `cluster0.o69nrpg` since this part is individual for each database
 ```
 mongo "mongodb+srv://cluster0.o69nrpg.mongodb.net/myFirstDatabase" --username <username>
 ```
