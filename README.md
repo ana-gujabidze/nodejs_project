@@ -20,7 +20,7 @@ The app allows to:
 Clone the repo and install the dependencies.
 ``` 
 git clone https://github.com/ana-gujabidze/nodejs_todolist.git
-cd nodejs_project
+cd nodejs_todolist
 ```
 ``` 
 npm install
